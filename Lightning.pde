@@ -6,7 +6,7 @@ int endY=150;
 void setup(){
   size(300,300);
   strokeWeight(2);
-  background(0);
+  background(10);
 }
 void draw(){
   
@@ -19,7 +19,7 @@ void draw(){
   }
 }
 void mousePressed(){
-  stroke(0,(int)(Math.random()*255),(int)(Math.random()*255));
+  stroke((int)(Math.random()*255),0,(int)(Math.random()*255));
   startX=0;
   startY=150;
   endX=0;
